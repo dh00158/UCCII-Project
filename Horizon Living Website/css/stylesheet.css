@@ -359,7 +359,7 @@ main {
 	color: #fff;
 	padding: 2rem;
 	border-radius: 8px;
-	max-width: 600px; /* Prevents the left from growing too wide */
+	max-width: 600px; 
 }
 
 .contact-left h2 {
@@ -427,7 +427,7 @@ main {
 	display: inline-block;
 	margin-top: 1rem;
 	background-color: #3e5c3b;
-	color: white;
+	color: white !important;
 	padding: 0.6rem 1.2rem;
 	border-radius: 5px;
 	text-align: center;
@@ -640,4 +640,106 @@ main {
 	font-size: 1rem;
 	line-height: 1.7;
 	color: #333;
+}
+
+/* DINING PAGE STYLES */
+.dining1 {
+	font-size: 36px;
+	color: #2d4c2e;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.content {
+	max-width: 1000px;
+	margin: 2rem auto;
+	padding: 1rem 2rem;
+	background-color: #f9f9f9;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+	font-size: 24px;
+	color: #2d4c2e;
+	font-weight: 600;
+	margin-bottom: 1.5rem;
+	text-align: center;
+}
+
+.rich-text {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.content1,
+.content2,
+.content3 {
+	display: flex;
+	flex-direction: column;
+}
+
+.paragraph {
+	color: #333;
+	line-height: 1.6;
+	font-size: 1.1rem;
+}
+
+.at-horizon-living {
+	margin-bottom: 1rem;
+}
+
+/* Menu Button Styling */
+.button2 {
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: fit-content;
+	margin: 2rem auto;
+	background-color: #2d4c2e;
+	color: white;
+	padding: 0.75rem 1.5rem;
+	text-align: center;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.button2:hover {
+	background-color: #244023;
+}
+.state-layer .label-text {
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+/* Dining Page Image */
+.image-18-icon {
+	display: block;
+	max-width: 100%;
+	margin: 2rem auto;
+	border-radius: 8px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+/*Dining menu */
+.menu-content {
+	text-align: center;
+	padding: 2rem;
+}
+
+.menu-title {
+	font-size: 2.5rem;
+	color: #2d4c2e;
+	margin-bottom: 1.5rem;
+}
+
+.menu-image {
+	max-width: 80%;
+	height: auto;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
