@@ -521,27 +521,51 @@ main {
 }
 
 /* --- About Us: Section 2: Meet Staff --- */
-.staff-section {
-	display: flex;
-	gap: 40px;
-	margin-bottom: 60px;
-	align-items: flex-start;
-	flex-wrap: wrap;
+.staff-page {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.staff-info {
-	flex: 1;
+.team-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #2e4b30;
 }
 
-.staff-info h2 {
-	font-size: 1.8rem;
-	margin-bottom: 20px;
+.staff-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
 }
 
-.staff-info p {
-	font-size: 1rem;
-	line-height: 1.6;
-	margin-bottom: 20px;
+.staff-member {
+    width: 250px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.staff-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.staff-member h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.staff-member p {
+    font-size: 1rem;
+    color: #444;
 }
 
 /* --- SERVICES PAGE --- */
