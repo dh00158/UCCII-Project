@@ -341,13 +341,17 @@ main {
 .contact-page {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 2rem;
+	justify-content: center; /* Ensures it stays centered on wide screens */
 	gap: 2rem;
+	padding: 2rem;
+	max-width: 1200px; /* Optional: keeps it from stretching too wide */
+	margin: 0 auto;
 }
 
 .contact-left,
 .contact-right {
-	flex: 1 1 45%;
+	flex: 1 1 400px; /* Ensures both columns shrink nicely on smaller screens */
+	min-width: 300px;
 }
 
 .contact-left {
@@ -355,6 +359,7 @@ main {
 	color: #fff;
 	padding: 2rem;
 	border-radius: 8px;
+	max-width: 600px; /* Prevents the left from growing too wide */
 }
 
 .contact-left h2 {
@@ -370,12 +375,13 @@ main {
 .contact-form {
 	display: flex;
 	flex-direction: column;
+	gap: 1rem;
+	margin-top: 1rem;
 }
 
 .contact-form .form-row {
 	display: flex;
 	gap: 1rem;
-	margin-bottom: 1rem;
 }
 
 .contact-form input,
@@ -384,7 +390,6 @@ main {
 	border: none;
 	border-radius: 5px;
 	font-size: 1rem;
-	margin-bottom: 1rem;
 	width: 100%;
 }
 
@@ -406,6 +411,7 @@ main {
 	padding: 2rem;
 	font-size: 1.1rem;
 	line-height: 1.8;
+	max-width: 400px; /* Keeps it narrower than the form section */
 }
 
 .contact-right a {
@@ -430,6 +436,7 @@ main {
 .directions-btn:hover {
 	background-color: #2e4b30;
 }
+
 
 /* SIGN UP / LOG IN PAGE (same layout) */
 .signup-wrapper {
