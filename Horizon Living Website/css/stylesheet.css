@@ -493,6 +493,8 @@ main {
 	height: auto;
 	object-fit: cover;
 	flex: 1;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 /* --- About Us : Section 1: Intro --- */
